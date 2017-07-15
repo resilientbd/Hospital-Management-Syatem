@@ -1,0 +1,4 @@
+#Sat Jul 15 03:50:17 BDT 2017
+base.0=D\:\\Github\\Hospital Management Syatem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\Github\\Hospital Management Syatem\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

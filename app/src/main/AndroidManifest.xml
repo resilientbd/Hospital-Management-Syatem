@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yeasir.calclutor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="Hospital Management System"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".Admin" />
+        <activity android:name=".NotificationF" />
+        <activity android:name=".NewPatient" />
+        <activity android:name=".DischargePatient" />
+        <activity android:name=".BillPatient" />
+        <activity android:name=".AddRoom" />
+        <activity android:name=".Search" />
+        <activity android:name=".Donater" />
+        <activity android:name=".PatientD" />
+        <activity android:name=".DoctorD" />
+        <activity android:name=".NursesD" />
+        <activity android:name=".EmployeesD" />
+        <activity android:name=".BloodBankD" />
+        <activity android:name=".ReportsD" />
+        <activity android:name=".DepartmentD" />
+        <activity android:name=".Add_Doctor" />
+        <activity android:name=".List_Doctor" />
+        <activity android:name=".Add_Nurse" />
+        <activity android:name=".List_Nurse" />
+        <activity android:name=".Discharge_Nurse" />
+        <activity android:name=".Add_Employee" />
+        <activity android:name=".List_Employee" />
+        <activity android:name=".Discharge_Employee" />
+        <activity android:name=".List_Donation" />
+        <activity android:name=".Blood_Quantity" />
+        <activity android:name=".Add_Report" />
+        <activity android:name=".Birth_Report" />
+        <activity android:name=".Death_Report"></activity>
+    </application>
+
+</manifest>

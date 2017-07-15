@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CALCLUTOR</string>
+    <string name="spinner_title">Select Label</string>
+    <string name="patientId">Patient ID :</string>
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>Bangladesh</item>
+        <item>Saudi-Arab</item>
+    </string-array>
+
+    <string-array name="gender_arrays">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="disease_arrays">
+        <item>Fever</item>
+        <item>Cough</item>
+        <item>Eye</item>
+    </string-array>
+
+    <string-array name="depertment_arrays">
+        <item>Pediatricians</item>
+        <item>Medicine</item>
+        <item>Gynecology</item>
+    </string-array>
+
+    <string-array name="room_arrays">
+        <item>Vip A/C</item>
+        <item>Normal A/C</item>
+    </string-array>
+
+    <string-array name="donation_arrays">
+        <item>Blood</item>
+        <item>Kidney</item>
+        <item>Heart</item>
+        <item>Eye</item>
+        <item>Bulb</item>
+
+
+    </string-array>
+
+
+</resources>

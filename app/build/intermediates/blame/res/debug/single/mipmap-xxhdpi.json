@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\CALCLUTOR\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\AndroidStudioProjects\\CALCLUTOR\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Github\\Hospital Management Syatem\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\Github\\Hospital Management Syatem\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

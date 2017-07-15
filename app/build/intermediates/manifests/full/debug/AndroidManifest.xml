@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yeasir.calclutor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="Hospital Management System"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="com.example.yeasir.calclutor.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.yeasir.calclutor.Register" />
+        <activity android:name="com.example.yeasir.calclutor.Admin" />
+        <activity android:name="com.example.yeasir.calclutor.NotificationF" />
+        <activity android:name="com.example.yeasir.calclutor.NewPatient" />
+        <activity android:name="com.example.yeasir.calclutor.DischargePatient" />
+        <activity android:name="com.example.yeasir.calclutor.BillPatient" />
+        <activity android:name="com.example.yeasir.calclutor.AddRoom" />
+        <activity android:name="com.example.yeasir.calclutor.Search" />
+        <activity android:name="com.example.yeasir.calclutor.Donater" />
+        <activity android:name="com.example.yeasir.calclutor.PatientD" />
+        <activity android:name="com.example.yeasir.calclutor.DoctorD" />
+        <activity android:name="com.example.yeasir.calclutor.NursesD" />
+        <activity android:name="com.example.yeasir.calclutor.EmployeesD" />
+        <activity android:name="com.example.yeasir.calclutor.BloodBankD" />
+        <activity android:name="com.example.yeasir.calclutor.ReportsD" />
+        <activity android:name="com.example.yeasir.calclutor.DepartmentD" />
+        <activity android:name="com.example.yeasir.calclutor.Add_Doctor" />
+        <activity android:name="com.example.yeasir.calclutor.List_Doctor" />
+        <activity android:name="com.example.yeasir.calclutor.Add_Nurse" />
+        <activity android:name="com.example.yeasir.calclutor.List_Nurse" />
+        <activity android:name="com.example.yeasir.calclutor.Discharge_Nurse" />
+        <activity android:name="com.example.yeasir.calclutor.Add_Employee" />
+        <activity android:name="com.example.yeasir.calclutor.List_Employee" />
+        <activity android:name="com.example.yeasir.calclutor.Discharge_Employee" />
+        <activity android:name="com.example.yeasir.calclutor.List_Donation" />
+        <activity android:name="com.example.yeasir.calclutor.Blood_Quantity" />
+        <activity android:name="com.example.yeasir.calclutor.Add_Report" />
+        <activity android:name="com.example.yeasir.calclutor.Birth_Report" />
+        <activity android:name="com.example.yeasir.calclutor.Death_Report" />
+    </application>
+
+</manifest>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_admin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#76448A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_margin="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="System Dashboard"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/notification_btn"
+            android:text="Notification"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="buckysButtonClicked"
+            />
+
+        <Button
+            android:onClick="onclick_search"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/search_btn"
+            android:text="search"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <Button
+            android:onClick="onclick_patient"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/patient_btn"
+            android:text="Patient"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:onClick="onclick_doctor"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/discharge_btn"
+            android:text="doctors"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:onClick="onclick_nurse"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/nurse_btn"
+            android:text="Nurses"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:onClick="onclick_employee"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/employee_btn"
+            android:text="Employers"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:onClick="onclick_bloodBank"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/blood_bank_btn"
+            android:text="Blood bank"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:onClick="onclick_report"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/report_btn"
+            android:text="reports"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:onClick="onclick_department"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/departments_btn"
+            android:text="departments"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <Button
+            android:onClick="onclick_room"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/room_btn"
+            android:text="manage room"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/bill_btn"
+            android:text="payment"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <Button
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/logout_btn"
+            android:text="Logout"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="onclick_logout"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
